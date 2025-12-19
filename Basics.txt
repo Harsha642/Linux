@@ -27,3 +27,6 @@ sed full form is stream editor. It's a powerful tool to edit text files from ter
 1) If I want to replace hasrha with harsha in a file names.txt 
 sed -i 's/hasrha/harsha/' names.txt
 The -i flag stands for in-place editing. This command will directly modify the file names.txt by replacing the first occurrence of hasrha with harsha on each line. After running this, the file itself is updated—no output is printed to the terminal
+
+sed 's/hasrha/harsha/' names.txt
+This command does not modify the file. Instead, it reads names.txt, performs the substitution, and prints the result to standard output (your terminal). The original file remains unchanged unless you redirect the output to a new file, like: sed 's/hasrha/harsha/' names.txt > new_names.txt

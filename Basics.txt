@@ -1,0 +1,14 @@
+1) Linux broadly refers to a free, open-source operating system first released by LInus Torvalds in 1991
+2) Linux is really just name of the kernal. A kernal allows software to communicate with a computer's hardware
+3) All Linux system run a version of the Linux kernel
+4) Most Linux systems use the same set of core tools called the GNU coreutils. The combination of these tools and the kernel are referred to as GNU/Linux.
+
+Helpuful Keyboard Shortcuts in the terminal
+Ctrl-A --> Move to beginning of line
+Ctrl-E --> Move to end of line
+Ctrl-Left arrow --> Move left one word
+Ctrl-Right arrow --> Move right one word
+Ctrl-U --> Delete from cursorto line start
+Ctrl-K --> Delete from cursor to line end
+Ctrl-R --> Search command histroy
+Ctrl-C --> Cancel command 

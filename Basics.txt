@@ -12,3 +12,18 @@ Ctrl-U --> Delete from cursorto line start
 Ctrl-K --> Delete from cursor to line end
 Ctrl-R --> Search command histroy
 Ctrl-C --> Cancel command 
+
+
+find . -name "abc*"
+
+Links:
+1) Links are files that reference other files. Used to avoid having duplicate files. Establish a pointer in one place to a destination in another
+2) Two types of links: A hard link points to a specific data (by inode) on the disk, A soft link or symbolic link(symlink) points to another file
+
+
+
+sed 
+sed full form is stream editor. It's a powerful tool to edit text files from terminal.
+1) If I want to replace hasrha with harsha in a file names.txt 
+sed -i 's/hasrha/harsha/' names.txt
+The -i flag stands for in-place editing. This command will directly modify the file names.txt by replacing the first occurrence of hasrha with harsha on each line. After running this, the file itself is updated—no output is printed to the terminal
